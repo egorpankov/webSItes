@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" id = "theme">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="icon" type="image/png" href="prog.png">
+    <title>Personal Folio</title>
+</head>
+
+<body>
+    <div class="page">
+        <!--Header-->
+        <header class="header">
+            <div class="contanier">
+                <div class="header-inner">
+                    <div class="header-brand"> EGOR PANKOV </div>
+                    <button class = "mode" id = "swithMode"><img src = "theme.svg" class = "modebutt"></button>
+                    <div class="header-logo"> <img src="code.svg" alt=""> </div>
+                    <nav class="header-nav">
+                    <a class="hedaer-nav-link" href="index.html" id = "home">Home</a>
+                    <a class="hedaer-nav-link" href="about.html" id = "aboutM">About me</a>
+                    <a class="hedaer-nav-link active" href="contacts.html" id = "contacts">Contacts</a> </nav>
+                </div>
+            </div>
+            <!--.contanier-->
+        </header>
+        <!--Main-->
+        <div class="contanier">
+            <main class="content">
+               <div class="content-header">
+                   <h1 class="title-con"><span id = "wrt" class = "webpr">Write me a </span><span class = "web" id = "messa">message</span></h1>
+                       <div class="text">
+                            <p><span id = "mess">Contact me if you are interested!</span></p>
+                   </div>
+                 </div>
+
+                    <form class="form" action="/" method="post">
+                       <div class="form-group">
+                            <input type="text" name="name" class="input" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="input" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="tel" class="input" placeholder="Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="textarea" name="text" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-full" type="submit"><span id = "send">Send message</span></button>
+                        </div>
+                    </form>
+                    <button id = "btnnn" class = 'buttt' onclick = "transss()">Перевод</button>
+            </main>
+        </div>
+        <!--Footer-->
+        <footer class="footer">
+            <div class="contanier">
+                <div class="contacts">
+                <a class="contacts-link" href="mailto:pankovegor9@gmail.com">
+                    <img class="contacts-icon" src="mail.svg" alt="">Info@pankovegor9@gmail.com
+                </a>
+                <a class="contacts-link" href="tel:+8952*******">
+                    <img class="contacts-icon" src="tel.svg" alt="">+8952*******
+                </a>
+                </div>
+            </div>
+        </footer> </div>
+    <!--.page-->
+    <script src = "script.js"></script>
+</body>
+
+</html>
